@@ -8,7 +8,9 @@
 
 let pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
-let pairsByIndex; // Complete this statement
+ let filter = pairsByIndexRaw.filter((filterOut) =>  typeof filterOut != "string" && filterOut != null && filterOut != false && filterOut.length > 1 ); // Complete this statement
+ //console.log(filter); 
+ let pairsByIndex = filter;
 
 let students = ["Islam", "Lesley", "Harun", "Rukmini"];
 let mentors = ["Daniel", "Irina", "Mozafar", "Luke"];
