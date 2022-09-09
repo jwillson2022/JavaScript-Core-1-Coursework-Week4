@@ -8,14 +8,31 @@
 */
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+let fizz = "Fizz";
+let buzz = "Buzz";
+let fizzBuzz =  arr.forEach(function newFunc(elm) {
+//console.log(elm + ": " + elm);
+ if (elm === 15) {
+    console.log("Fizz-Buzz");
+  }
+  else if (elm % 3 === 0 ){ 
+  console.log(fizz);
+}
+  else if   (elm % 5 === 0 ) {
+  
+  console.log (buzz);
+  } 
+ 
+  else {
+  console.log(elm);
+  }
+});
+ 
 
-let fizzBuzz =  arr.map(format);
-namesFormatted.forEach(log);
-
+//console.log(fizzBuzz)
  // complete this statement
-console.log(fizzBuzz);
-/* EXPECTED OUTPUT */
-//function double(number) {
+
+
   //return number "Fizz";
 /*
 1
