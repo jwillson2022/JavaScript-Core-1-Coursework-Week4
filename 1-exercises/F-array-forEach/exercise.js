@@ -9,8 +9,14 @@
 
 let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
-/* EXPECTED OUTPUT */
+let fizzBuzz =  arr.map(format);
+namesFormatted.forEach(log);
 
+ // complete this statement
+console.log(fizzBuzz);
+/* EXPECTED OUTPUT */
+//function double(number) {
+  //return number "Fizz";
 /*
 1
 2
