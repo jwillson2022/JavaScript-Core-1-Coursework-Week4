@@ -8,10 +8,11 @@
 
 let statement = "I do not like programming";
 
-let result = "";
-
+let part1 = statement.substring(0,5);
+let part2 = statement.substring(9,25);
+result = part1.concat(part2);
 console.log(result);
-
+console.log(statement.length);
 /* EXPECTED OUTPUT 
 
   "I do like programming"
