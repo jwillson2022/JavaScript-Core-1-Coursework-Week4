@@ -12,8 +12,18 @@
 
 let story =
   "I like dogs. One day I went to the park and I saw 10 dogs. It was a great day.";
+  let keyWords = ["dogs", "day", "10", "great"];
+   let replaceWords = ["cats","night", "10000", "brilliant"]
+ let myArray = story.split(" " ,20);
+ 
+let result = story.replace("dogs", "cats") ;
+result = result.replace("I like dogs", "I like cats") ;
+result= result.replace("day", "night") ;
+result = result.replace("10" , "100000") 
+result = result.replace("great" , "brilliant"); 
+result = result.replace("dogs", "cats") ;
+result= result.replace("day", "night") ;
 
-let result = story.replace("", "");
 
 /* EXPECTED OUTPUT */
 
